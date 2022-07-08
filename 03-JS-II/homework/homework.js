@@ -1,11 +1,11 @@
 // No cambies los nombres de las funciones.
 
-function obtenerMayor(x, y) {
+function obtenerMayor(x , y) {
  
   if (x > y){
     return x;
   }
-  return x;
+  return y;
 }
 
 function mayoriaDeEdad(edad) {
