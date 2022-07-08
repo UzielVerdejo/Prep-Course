@@ -13,10 +13,10 @@ const nuevoBool = true;
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -171,10 +171,10 @@ function esPositivo(numero) {
     return false;
   }
   else if(numero > 0){
-    return "es positivo";
+    return "Es positivo";
   }
   else{
-    return "es negativo";
+    return "Es negativo";
   }
 }
 
@@ -182,7 +182,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return srt +'!';
+  return str + '!'; 
 }
 
 function combinarNombres(nombre, apellido) {
@@ -197,13 +197,14 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return  'Hola' + nombre + '!';
+  return  'Hola ' + nombre + '!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
   return alto * ancho;
+  return alto * ancho
 }
 
 
@@ -225,7 +226,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro *20.2
+  return euro * 1.2
 }
 
 
@@ -236,12 +237,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.length > 1){
-    return "Dato Incorrecto"
+    return "Dato incorrecto"
   }
-  if(letra === a || letra === e || letra === i || letra === o || letra ===u);{
-  return "Es Vocal" 
+  if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
+    return "Es vocal" 
   }
-  return "Dato Incorrecto"
+  return "Dato incorrecto"
 }
 
 
